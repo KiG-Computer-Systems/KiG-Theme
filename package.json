@@ -1,0 +1,21 @@
+{
+  "name": "kig-theme",
+  "displayName": "KiG Theme",
+  "description": "Official color themes for Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark future",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark future-color-theme.json"
+      }
+    ]
+  }
+}
